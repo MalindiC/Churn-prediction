@@ -11,7 +11,5 @@ Le Modèle testé ici, est un réseau de neuronnes à une couche cachée. La bib
            1       0.74      0.28      0.40       112
 
     accuracy                           0.89       850
-   macro avg       0.82      0.63      0.67       850
-weighted avg       0.88      0.89      0.87       850
 
 On conclut donc, que le modèle est efficace pour reconnaître les clients non frauduleux (f1-score de 0.94), cependant le modèle ne reconnaît que 40% des clients frauduleux, ce qui semble assez faibles, en revanche parmi les client que le modèle considère comme frauduleux, 74% le sont vraiment. Ainsi le modèle semble plutôt fiable lorsqu'il classifie un clien comme frauduleux.
